@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+}
+
+body{
+    background:url("new bg.jpg");
+    background-size:cover;
+}
+
+header{
+    width:100%;
+    height:100vh;
+    font-family:sans-serif;   
+}
+
+.nav{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.icon-border{
+    width:130px;
+    height:50px;
+     display:flex; 
+    align-items:center;
+}
+
+p{
+    color:#3AA6B9 ;
+    font-weight:bolder;
+    font-size:25px;
+    text-shadow:2px 3px #8cdacc;
+    text-transform:capitalize;
+    padding:1px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
+.icon{
+    background-image:url("logo.webp");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+ 
+.menu a{
+    text-decoration:none;
+    color:black;
+    padding:10px 20px;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform:capitalize;
+    position:relative;
+}
+
+.menu a:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0% ;
+    height:100%;
+    border-bottom:2.5px solid rgb(81, 142, 181);
+    transition:0.5s linear ;    
+}
+
+.menu a:hover:before{
+    width:90%;
+}
+
+.register{
+    display:flex;
+    height:20%;
+    padding:10px;
+    color:grey;
+    align-items:center;
+    border:2px solid #f9dee1;
+    background-color:#f9dee1;
+    border-radius:4px;
+    transition:0.4s;
+}
+
+.register i{
+    font-size:2em;
+    padding:0px 2px;   
+}
+
+.register a{
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+    text-transform:capitalize;
+    font-family:initial;
+}
+
+.register:hover{
+    background:transparent;
+    border:2px solid #f9dee1;
+}
+
+.h-txt{
+    max-width:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:black;
+}
+
+.h-txt h1{
+    font-size:4em;
+    font-family:'Gill Sans', 'Gill Sans MT';
+    text-transform:capitalize;
+    color:#d595f5;
+}
+
+.h-txt h4{
+    font-weight:200;
+    font-family:inherit;
+    text-transform:capitalize;
+}
+
+.h-txt span{
+    letter-spacing:1px;
+    font-size:larger;
+    font-family:serif;
+    color:rgb(198, 104, 198);
+}
+
+.h-txt a{
+    text-decoration:none;
+    font-family:initial;
+    font-size:20px;
+    border-bottom-left-radius:30%;
+    border-top-right-radius:30%;
+    background-color:#FF9EAA;
+    border:2px solid #FF9EAA;
+    color:black;
+    text-transform:capitalize;
+    padding:10px 20px;
+    letter-spacing:0px;
+    font-weight:500;
+    transition:0.4s;
+}
+
+.h-txt a:hover{
+    background:transparent;
+    border:2px solid #FF9EAA ;
+}
+
+footer{
+    background-color:transparent;
+}
+
+.footercontainer{
+    width:80%;
+    padding:50px; 
+}
+
+.socialicons{
+    display:flex;
+    justify-content:center;
+}
+
+.socialicons a{
+    text-decoration:none;
+    background-color:white;
+    padding:10px;
+    margin:30px;
+    border-radius:50%;
+}
+
+.socialicons i{
+    font-size:2em;
+    color:black;
+    opacity:0.9;
+    border-radius:20%;
+}
+
+.socialicons a:hover{
+    background-color:transparent;
+    transition:0.5s;
+}
+
+.socialicons a:hover i{
+    transition:0.5s;
+}
