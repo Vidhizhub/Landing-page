@@ -219,7 +219,7 @@ option{
 .priority{
     display:flex;
     flex-direction: column;
-    position:fixed;
+    position:sticky;
     margin:20px;
     height: 20px;
     justify-content:space-between;
