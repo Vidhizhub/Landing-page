@@ -33,8 +33,9 @@ Hosting on GitHub Pages, Netlify, or Vercel.
 
 # 📌 How to Use
 # 🔧 Prerequisites
-1.A web browser (Chrome, Firefox, Edge, etc.).
+1. A web browser (Chrome, Firefox, Edge, etc.).
 2. Basic knowledge of HTML, CSS, and JavaScript (optional for customization).
+
 # 🚀 Future Enhancements
 1. Dark Mode Support: Toggle between light and dark themes.
 2. Animations & Effects: Enhance user engagement with smooth animations.
